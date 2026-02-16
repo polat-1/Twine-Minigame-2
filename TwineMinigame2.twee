@@ -7,11 +7,241 @@ Twine Minigame 2
   "ifid": "d1d488d1-e008-43d0-8226-d7aa8a51892b",
   "format": "SugarCube",
   "format-version": "2.37.3",
+  "start": "Start",
   "zoom": 0.6
 }
 
 
-:: Start {"position":"450,150","size":"100,100"}
-!put your title here
+:: Start {"position":"450,125","size":"100,100"}
+!kibbles
+''by jason garcia.''
 
-Start writing your story here :)
+//You are known by many names.//
+The harbinger of death. The defiant one. The betrayer of the gods. Prometheus, incarnate.
+
+You have accomplished many great deeds throughout your long life. Witnissed first hand the rise and fall of empires. Forced kings and emperors of old and new to bow to your hand. Destroyed and pillaged countless cities and towns across the countrysides of Denmark and Norway. For these things, you will surely go down in infamy.
+
+[[continue->introduction]]
+
+
+:: approach the front door. {"position":"625,1400","size":"100,100"}
+the front door towers before you. The only thing keeping you from achieving freedom.
+
+And after this, it will no longer be in your way. This key will be your ticket to salvation.
+
+[[leap up to the handle and unlock the door]]
+
+
+:: approach the light {"position":"625,1775","size":"100,100"}
+You are greeted with the light of the sun. 
+
+As you stand in the doorway, you can do nothing but bask in your newfound freedom.
+
+At last, no more vetenarian visits. no more captivity. no more baths. just the wind in your fur and ambition in your heart.
+
+You walk into the distance.
+
+<img src="https://i.postimg.cc/rstyBC5c/ending.jpg">
+
+!THE END
+
+
+:: escape {"position":"450,400","size":"100,100"}
+<img src="https://i.postimg.cc/ydQyJZYy/introduction.jpg">
+As you sit by the window, you come to a realization. your owner is off at work, and he left left you here in the apartment alone.
+
+You decide its finally time to make your escape.
+
+leap down to the [[living room floor]]
+
+
+:: fail to destroy door 2 {"position":"175,1025","size":"100,100"}
+<img src="https://i.postimg.cc/FKG8PVQq/doorattack2.jpg">
+[[continue ->fail to destroy door 3]]
+
+
+:: fail to destroy door 3 {"position":"200,1175","size":"100,100"}
+<img src="https://i.postimg.cc/7LXdBnyt/doorattack3.jpg">
+[[continue ->fail to destroy door 4]]
+
+
+:: fail to destroy door 4 {"position":"200,1350","size":"100,100"}
+<img src="https://i.postimg.cc/8Cw9ymVn/doorattack4.jpg">
+[[continue ->fail to destroy door 5]]
+
+
+:: fail to destroy door 5 {"position":"250,1550","size":"100,100"}
+<!--
+incorrect choice 2
+-->
+<img src="https://i.postimg.cc/3w9VLFHc/doorattack5.jpg">
+
+you had done much in your 3 years of life. 
+Lead the Siege of Antioch. Bested the first Duke of Wellington at Hnefatafl. Invented the stereoscope. Settled down in Normandy with your wife and three kids. Had the patent to said stereoscope stolen by your best friend, Sir Charles Wheatstone back in '38.
+
+If this is to be the end of you, then so be it. You have no regrets.
+
+You fought for your freedom, for a chance at a better tomorrow. That is all that matters in the end.
+
+Lying there on the floor of your house, your vision fades to black.
+
+You see a feint light in the far distance.
+
+!GAME OVER.
+[[retry->living room floor]]
+
+
+:: fail to destroy the door {"position":"175,900","size":"100,100"}
+<!--
+animation thingy
+-->
+<img src="https://i.postimg.cc/Dz5HCPKN/doorattack1.jpg">
+[[continue->fail to destroy door 2]]
+
+
+:: go back to sitting and doing nothing {"position":"675,650","size":"100,100"}
+<!--
+incorrect choice 1
+-->
+as you sit at the window sill, time passes you by.
+
+the hours turn into days, turning into months, and eventually years.
+
+centuries pass. the modern world order falls and the world is plunged into an age of darkness. chaos runs rampant through the streets, as the lands are ruled by war lords and small feudal nation-states.
+
+All the meanwhile, you lie at the window sill. entropy consuming you whole.
+
+as your body returns to the earth, leaving only ash and bone, you are left with only one question.
+
+where did your owner even go...? did he seriously just leave you there?
+
+<img src="https://i.postimg.cc/2SdRLXCx/sleep.jpg">
+
+!GAME OVER.
+[[retry->living room floor]]
+
+
+:: go to the kitchen {"position":"475,700","size":"100,100"}
+you decide that escaping from this place can wait. its time to find something to eat.
+
+as you peer into your food bowl, you see that it is still empty, just as it was when you last checked, 5 minutes ago.
+
+your owner is cruel, indeed. how dare he deprive you of your sustinence.
+
+You assume he must be keeping it all for himself, scarfing down your precious cat food while laughing manaically.
+
+before your anger can get the best of you, you notice a glimmering object on the counter.
+
+[[investigate the counter]]
+[[leave->living room floor]]
+
+
+:: introduction {"position":"450,275","size":"100,100"}
+But here, you are none of these things.
+
+In this 1 bed 1 bath apartment,
+
+you are just a cat. kibbles the cat.
+
+<img src="https://i.postimg.cc/xdrf2xvJ/intro.jpg">
+
+[[continue->escape]]
+
+
+:: investigate the counter {"position":"475,875","size":"100,100"}
+as you approach, the glimmering object reveals itself to you.
+
+its a key!
+
+its probably the key to the front door. your owner is a fool to have left this out in the open here.
+
+the only problem is, how will you possibly reach it? the counter is so high up.
+
+[[look at the stool]]
+[[look at the conveniently placed bundle of rope]]
+[[try to scale the kitchen counter]]
+
+
+:: leap up to the handle and unlock the door {"position":"625,1525","size":"100,100"}
+you jump higher than you've ever jumped before. You just barely reach the handle, sticking in the key before turning it with an sudden jerk.
+
+[[the door opens with a click]]
+
+
+:: living room floor {"position":"450,550","size":"100,100"}
+You reach the center of the living room. You must get out quickly, before your owner comes back home
+
+what will you do?
+
+[[try the front door]]
+[[go back to sitting and doing nothing]]
+[[go to the kitchen]]
+
+
+:: look at the conveniently placed bundle of rope {"position":"625,1025","size":"100,100"}
+perfect. it will be a challenge to haul this rope though, seeing as you lack opposable thumbs.
+
+[[you decide to drag the rope with your mouth.->top of counter]]
+
+
+:: look at the stool {"position":"475,1100","size":"100,100"}
+yes, this would certainly help you gain some height, but it's not enough.
+
+even while standing on the stool, you are too short to reach the counter top.
+
+standing on the stool makes you feel a little better about your embarassingly short stature, though. at least there's that.
+
+[[go back->investigate the counter]]
+
+
+:: na just kick down the door {"position":"250,775","size":"100,100"}
+You realize that you dont need a key. You have something better: your brute strength.
+
+Today is the day. The day that you burst through that door and into the sunset as a free cat.
+
+You steel your nerves. For this to work, you must harness all your strength into destroying this wretched beast.
+
+[[ATTACK!!!!!->fail to destroy the door]]
+
+
+:: take the key {"position":"625,1275","size":"100,100"}
+You have it at last, your ticket to freedom. It is time to open the door and make a break for it.
+
+[[approach the front door.]]
+
+
+:: the door opens with a click {"position":"625,1650","size":"100,100"}
+<img src="https://i.postimg.cc/8crk2BLs/thelight.jpg">
+this is finally it. You can see in the crack between the door, a warm and vibrant glow.
+
+[[approach the light]]
+
+
+:: top of counter {"position":"625,1150","size":"100,100"}
+You drag the pile of rope  over to the counter and throw the rope with all your might. 
+
+the rope takes hold of the key, and drags it down from the countertop.
+
+The key falls before your feet.
+
+[[take the key]]
+
+
+:: try the front door {"position":"250,650","size":"100,100"}
+<img src="https://i.postimg.cc/bNc9Zbxq/door.jpg">
+the front door towers before you. The only thing keeping you from achieving freedom.
+
+Unfortunately, its locked. 
+
+You will need to find something to open the door with. Maybe a key.
+
+[[na just kick down the door]]
+[[leave to find the key->living room floor]]
+
+
+:: try to scale the kitchen counter {"position":"325,1025","size":"100,100"}
+it seems that you've really let yourself go. perhaps sleeping at the window sill and doing nothing else every day is not a very good way to stay fit. you dont even make it half way up.
+
+kind of embarassing for a cat.
+
+[[go back ->investigate the counter]]
