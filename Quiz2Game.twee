@@ -23,9 +23,9 @@ Try again by going back to the [[start]].
 
 
 :: cat gogurt {"position":"350,375","size":"100,100"}
-<
+<!--
 Notice how the start link goes back to the start of the game. This is because the first passage is named start!
->
+-->
 
 Momo loved it!! She eats all of the cat gogurt.
 
@@ -59,14 +59,14 @@ I hope y'all don't mind that I always use my cats as characters in the Minigames
 
 !Start
 
-/Click the links to advance in the game./
+//Click the links to advance in the game.//
 
-You are ''Nemo, a big orange cat, and you are trying to befriend a very shy cat named Momo, a fluffy black cat.
+You are ''Nemo'', a big orange cat, and you are trying to befriend a very shy cat named Momo, a fluffy black cat.
 
 What will you do to earn her affection?
 
 - Offer her delicious [[cat gogurt]]
-- [Run at her] excitedly
+- [[Run at her]] excitedly
 - Try to [[lick]] her
 
 
